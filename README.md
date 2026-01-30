@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/Lineage.png" width="60%" alt="Lineage" />
+</div>
+
 # LINEAGE PROJECT DESCRIPTION
 
 Lineage is a complete and structured reconstruction of the intellectual, mathematical, and engineering evolution of Artificial Intelligence (AI) from its inception to the present day. This project aims to provide a comprehensive overview of the key milestones, breakthroughs, and concepts that have shaped the field of AI over the decades.
