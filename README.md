@@ -4,7 +4,7 @@ Lineage is a complete and structured reconstruction of the intellectual, mathema
 
 ### NOTE:
 
-- This project is designed to serve as the educational arm for the production project ["ATLAS AI"](https://github.com/altruva-group/atlas) which is focused on building advanced AI blueprints.
+- This project is designed to serve as the educational arm for the production project ["ATLAS AI"](https://github.com/Altruva-Group/ATLAS-AI) which is focused on building advanced AI blueprints.
 - Do not attempt to contribute to the without firstly going through this guide and understanding the structure and aims of the project.
 - This project provides the understanding, context, and background needed to effectively contribute to the ATLAS AI production project.
 - The project is still a work in progress, and contributions are welcome from those who share the vision of documenting and eductating others on the lineage of AI.
