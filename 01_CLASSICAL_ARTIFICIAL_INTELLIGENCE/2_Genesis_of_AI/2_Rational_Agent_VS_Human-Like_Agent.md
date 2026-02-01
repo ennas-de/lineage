@@ -5,15 +5,15 @@
 - Very early in AI's history, the field split along a foundational axis that still shapes everything today:
   `Should AI aim to act like humans, or should it aim to act rationally to achieve goals?`
 
-* This is not a cosmetic distinction.
+- This is not a cosmetic distinction.
 
-* It determines:
+- It determines:
   - How systems are evaluated.
   - What 'success' means.
   - What failures are tolerated.
   - How intelligence is measured.
 
-* Most confusion in modern AI comes from mixing these two without realizing it.
+- Most confusion in modern AI comes from mixing these two without realizing it.
 
 ## Human-Like Agents: Imitation as Intelligence
 
@@ -41,7 +41,7 @@
   - Human reasoning is inconsistent and biased.
   - Human cognition does not scale.
 
-* In trying to copy humans, we hard-code their limitations into machines.
+- In trying to copy humans, we hard-code their limitations into machines.
 
 ## Rational Agents: Performance over resemblance
 
@@ -51,14 +51,14 @@
 - That is:
   `An intelligent machine should do whatever is necessary to achieve its goals, regardless of how humans would do it.`
 
-* This does not care:
+- This does not care:
   - How the decision was made
   - Whether the reasoning looks human
   - Whether the explanation is intuitive
 
-* Only the outcome relative to the goal and information matter.
+- Only the outcome relative to the goal and information matter.
 
-* This framing replaces `Thinking` with `Acting optimally under constraints`.
+- This framing replaces `Thinking` with `Acting optimally under constraints`.
 
 - Strengths:
   - Focuses on effectiveness and efficiency.
@@ -71,7 +71,7 @@
   - Harder for humans to understand or trust.
   - May conflict with human values if not carefully aligned.
 
-* Rational agents can outperform humans by exploiting strategies humans wouldn't consider.
+- Rational agents can outperform humans by exploiting strategies humans wouldn't consider.
 
 ## Rationality defined (carefully)
 
@@ -82,12 +82,12 @@
 
 - Keyword: `expected` — rationality is about making the best choice given uncertainty and limited information.
 
-- This already admits:
+- This perspective naturally leads to probabilistic reasoning to handle:
   - Uncertainty
   - Partial Observability
   - Imperfect information
 
-* Which is why Probability enters later!
+- Which is why Probability enters later!
 
 ## Why Rationality Won (quietly)
 
@@ -97,9 +97,9 @@
   - It scales beyond human intuition
   - It supports automation
 
-* A chess engine does not need to 'think like a grandmaster'. It only need to win.
+- A chess engine does not need to 'think like a grandmaster'. It only need to win.
 
-* A routing algorithm does not need human intuition. It just need to minimize cost.
+- A routing algorithm does not need human intuition. It just need to minimize cost.
 
 ## The subtle but critical consequence
 
@@ -118,7 +118,7 @@
   - LLMs
   - Agentic Systems
 
-* Even when early researchers didin't realize it at the time.
+- Even when early researchers didn't realize it at the time.
 
 ## Performance measures replace Introspection
 
@@ -128,13 +128,13 @@
   - Under what constraints?
   - Compared to what baseline?
 
-* This is the ancestor of:
+- This is the ancestor of:
   - Loss Function
   - Reward Functions
   - Utility Functions
   - Evaluation Metrics
 
-* These concepts are still valuable in the later stages of AI journey.
+- These concepts are still valuable in the later stages of AI journey.
 
 ## Why this rational-agent vs human-like distinction still matters today
 
@@ -169,4 +169,4 @@
   - Decisions become formalizable
 
 - This forces the next abstraction:
-  ` An explicit environment-agent interaction loop`
+  `An explicit environment-agent interaction loop`

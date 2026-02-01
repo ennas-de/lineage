@@ -1,3 +1,5 @@
+## The Conditional's Logic
+
 - In Software Engineering construct, a conditional statement is a fundamental building block that allows a program to make decisions based on certain conditions. It enables the program to execute different code paths depending on whether a specified condition evaluates to true or false.
 
 - This means that if as a software engineer, I want to create a system that behaves differently based on certain inputs or conditions (or states), I can use conditional statements to define these behaviors.
@@ -66,8 +68,8 @@ else:
 
 - Also, conditionals fail not only because of code complexity, but because they require the designer to enumerate the state space in advance.
 
-* Hence, we need something 'better', something more "ROBUST", something that can learn and adapt on its own without explicit programming for every possible condition. Or at least, that can handle more states of 'unkowns' than what we can explicitly program for.
+- Hence, we need something 'better', something more "ROBUST", something that can learn and adapt on its own without explicit programming for every possible condition. Or at least, that can handle more states of 'unkowns' than what we can explicitly program for.
 
 # Feed Forward
 
-This is where concepts from Classical Artificial Intelligence (AI) come into play, and will lead us to the next part of this Section - 1.2 Genesis of AI.
+This limitation of hand-coded conditionals is precisely what Artificial Intelligence (AI) set out to solve, and will lead us to the next part of this Section - 1.2 Genesis of AI.

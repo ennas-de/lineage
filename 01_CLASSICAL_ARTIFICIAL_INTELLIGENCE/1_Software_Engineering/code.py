@@ -13,18 +13,19 @@ print(current_hour)
 # output: 4 (it;s 4:11 am right now)
 
 # Determine the time of day based on the current hour
-if 5 <= current_hour < 12:                  # time from 5am to before 12pm noon.
+if 5 <= current_hour < 12:
     print("Good morning!")
-# time from 12pm noon to before 6pm evening.
 elif 12 <= current_hour < 18:
     print("Good afternoon!")
-# time from 6pm evening to before 10pm night.
 elif 18 <= current_hour < 22:
     print("Good evening!")
-else:                                       # time from 10pm night to before 5am morning.
+else:
     print("Good night!")
 
 
 # output:
-# 4                                         <- current hour
-# Good night!                               <- message based on current hour
+# 4                         <- current hour
+# Good night!               <- message based on current hour
+
+
+# This does not bring about intelligence per say, but it seems like it if we code enough 'rules'

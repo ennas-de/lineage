@@ -1,6 +1,6 @@
-# Intelligence as Goal-Directed Behavior
+# What Artificial INtelligence Originally meant
 
-## Key Insights
+## Intelligence as Goal-Directed Behavior
 
 - The original problem AI tried to solve was not 'thinking'.
 
@@ -19,12 +19,12 @@
 ## Personal Reflection
 
 - Initially, I felt that was a letdown. I wanted to build machines that could think like humans. But after careful reflection, I realized that this goal-directed behavior perspective was more practical and achievable.
-- In the field of Neuroscience (which I also belong to), the human brain is made up of billions of neurons working together to produce behavior and millions of years of evolution have shaped our cognitive abilities.
+- In the field of Neuroscience (which I also belong to), the human brain is made up of billions of neurons working together to produce behavior; and millions of years of evolution have shaped our cognitive abilities.
 - Trying to create a machine that thinks like a human is not only incredibly complex but also unnecessary for many applications. We have a 'seamingly capable brain', what we need now is how to extend it or maybe complement it with machine that can perform better where it's lacking (e.g., in the computational power).
 
 ## Intelligence as a Control Problem
 
-- Intelligence can be understood as the ability to achieve goals in a wide range of environments (or inputs).
+- Intelligence can be understood as the ability to achieve goals in a wide range of environments.
 
 - At its core, intelligence involves:
   - Perceiving the environment
