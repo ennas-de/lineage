@@ -8,7 +8,7 @@
 
 - It failed because it was locally optimal under constraints of its time.
 
-- Understanding why symbol manipulation seems sufficient is essential to understanding why it eventually broke.
+- Understanding why symbol manipulation seemed sufficient is essential to understanding why it eventually broke.
 
 - So what is Symbol Manipulation?
 
@@ -31,7 +31,7 @@
   - e.t.c.
 
 - In these worlds:
-  - Reality could be discretized
+  - Relevant aspects of reality could be discretized
   - Reasoning could be explicit
   - Intelligence looked like logic
 
@@ -46,14 +46,13 @@
   - Apply correct inference
     <br>Then intelligent behavior will follow
 
-- This assumption is called (informally):
-  `The Physical Symbol System Hypothesis`
+- This assumption was formalized as the `Physical Symbol System Hypothesis` (Newell & Simon).
 
 - This assumption is reasonable given the evidence available at the time.
 
 ## Symbols as compressed meaning
 
-- Symbol is not just a token
+- A symbol is not just an arbitrary token; it is a token with assigned meaning.
 
 - It stands for something in the world
 
@@ -76,7 +75,7 @@
   - Action -> Execute symbolic plans
     <br> In this system, everything was explicit, inspectable, and deterministic.
 
-- This made systems to be:
+- This made systems:
   - Debuggable
   - Explainable
   - Predictable
@@ -86,9 +85,7 @@
 
 - Once the world is symbolic, intelligence becomes:
   `Search through symbolic state spaces`
-  <br> Meaning that the moment we have been able to correctly map any and all important components of the world into a synbolic form representation.
-
-- Then, this leads directly to:
+  <br> Meaning that the moment we believed we could map all important components of the world into a symbolic representation, then, this leads directly to:
   - State representations
   - Operators
   - Transition models
@@ -106,7 +103,7 @@
   - the rules are known
   - the symbols are correct
   - the environment is stable
-    <br> then learning is redundant.
+    <br> then learning appears redundant.
     <br><br> You don't need data.
     <br> You need better rules.
 
@@ -115,12 +112,12 @@
   - Hand-crafted heuristics dominated.
   - Intelligence was engineered, not learned.
 
-## The hidden assumption that brakes everything
+## The hidden assumption that breaks everything
 
 - Symbolic AI relies on a silent assumption:
-  `The world can be exhaustively and correctly symbolizd in advance.`
+  `The world can be exhaustively and correctly symbolized in advance.`
 
-- We mentioned earlier that our AI will perform optimal if we can 'encode enough rules'.
+- It was implicitly assumed that performance would improve as long as rules could be made suficiently complete and consistent.
 
 - But this fails when:
   - Environments are noisy
@@ -174,7 +171,7 @@
 
 - If at this stage, we can clearly see that representing the world is more important now - which we can't fully cover by hand-coding, then we needed more ways to represent the world and cater for unseen situations.
 
-- The more representations we have (more encapsulation of situations), the more the AI can perform better. Since the symbols cover for some logic or information, then once we have enough of these symbols, then the AI can cover for more than situations.
+- The realization was not that we needed more symbols, but that we needed better ways to acquire and adapt representations. Enumerating symbols does not scale as intelligence requires representations that compress, generalize, and update experience.
 
 - But, we can't keep adding more symbols. This will lead to an explosion. In Software Engineering, this logic of having bogus codes or logic becomes a nightmare; for maintainability and scaling. Software engineers love modularity.
 

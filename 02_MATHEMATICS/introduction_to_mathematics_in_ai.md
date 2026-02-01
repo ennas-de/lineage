@@ -1,25 +1,46 @@
 # Introduction of Mathematics into Artificial Intelligence
 
-This is the first real computational core of classical AI.
+This section marks the first **formal mathematical grounding** of classical Artificial Intelligence.
 
-- In Section 1, we defined what `Intelligence` as the ability to achieve goals in a wide range of environments.
+- In Section 1, we defined **intelligence** as the ability to achieve goals across a range of environments.
 
-- We noted that `Symbolic Manipulation` is more crucial.
+- At this stage in AI’s history, intelligent behavior was implemented primarily through:
+  - **Symbolic representations of the world**
+  - **Explicit rules and constraints**
+  - **Deterministic inference procedures**
 
-- Symbolism is:
-  - the representation of the world,
-  - encoding the associated rules, and
-  - applying correct inference.
-    <br> So, manipulating these resultant symbols create intelligence.
+- Symbolic systems worked by:
+  - Representing relevant aspects of the world,
+  - Encoding rules over those representations, and
+  - Applying inference to select actions.
 
-- We also touched a little on how we implemented intelligence at its barest minimum. In its purest form - in a feed forward loop, where the outcome of the last action of the agent on the environment afects the future outcome of the agent.
+- Manipulating symbols was not intelligence itself, but the **mechanism through which intelligent behavior was realized**.
 
-- In this Section 2, we will define how intelligence was implemented before learning existed using Mathematical formulations.
+- We also introduced the minimal structure of intelligence as a **closed perception–action loop**, where:
+  - the agent observes the environment,
+  - selects an action,
+  - affects the environment,
+  - and receives new information in return.
 
-- At this stage in history:
-  - There was no data
-  - There was no learning
-  - There was no parameters
-  - Intelligence = explicit reasoning over explicitly defined spaces.
+---
 
-- Let us begin by looking at Section 1.1: Mathematical Representation of State.
+### Before Learning Became Central
+
+- At this point in history:
+  - There was little or no data
+  - Learning was not the dominant paradigm
+  - There were no _learned_ parameters
+  - Intelligence was defined as **explicit reasoning over explicitly defined spaces**
+
+- The central question was no longer _what intelligence is_, but:
+
+> **How do we formally represent states, actions, and goals so that an agent can act rationally?**
+
+- This question forced AI to adopt **mathematical structures** that could:
+  - define states precisely,
+  - describe transitions rigorously,
+  - and evaluate actions objectively.
+
+---
+
+- We now begin Section 1.1: **Mathematical Representation of State**

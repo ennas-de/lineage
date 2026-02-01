@@ -1,16 +1,11 @@
 # State Spaces Actions Transitions
 
-- From Section 1, we learnt that we can manipulating symbols leads to intelligence.
+- From Section 1, we learned that classical AI implemented intelligent behavior through explicit symbolic and rule-based manipulation.
 
-- But, say we have an extremly large number of symbols, how will it affect the performance of our agent?
+- However, this immediately raises a critical question:
+  `What happens when the number of possible states become extremely large?`
 
-- Or how de we efficiently map to each symbol?
-
-- This lead us to the concept of `SEARCHING`.
-
-- Where we need a form of way to correctly seek and identify the corresponding 'state' and it's symbol.
-
-- Say, for example, we have a state A, we then map it to a corresponding symbol 1. With this, the agent can successfully implement the rules of the symbol 1 on the state A.
+- If an agent must choose actions across thousands, millions, or even billions of possible states (or symbols), explicit enumeration quickly becomes infeasible.
 
 # The core abstraction
 

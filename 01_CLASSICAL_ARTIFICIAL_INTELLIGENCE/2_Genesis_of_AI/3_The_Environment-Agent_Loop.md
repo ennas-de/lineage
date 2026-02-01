@@ -22,7 +22,7 @@ The answer is: `An Environment.`
 
 This is the moment AI becomes a closed-loop systems, not a static algorithm.
 
-## The core abstraction (this never goes away)
+## The core abstraction (this never go away)
 
 - At the heart of all AI systems - classical or modern - is a `loop`.
   - `Perceive` the environment
