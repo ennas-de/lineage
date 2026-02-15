@@ -1,4 +1,4 @@
-# Introduction of Mathematics into Artificial Intelligence
+# Chapter 02: Introduction of Mathematics into Artificial Intelligence
 
 This section marks the first **formal mathematical grounding** of classical Artificial Intelligence.
 
@@ -16,7 +16,7 @@ This section marks the first **formal mathematical grounding** of classical Arti
 
 - Manipulating symbols was not intelligence itself, but the **mechanism through which intelligent behavior was realized**.
 
-- We also introduced the minimal structure of intelligence as a **closed perception–action loop**, where:
+- We also introduced the minimal structure of intelligence as a **closed perception-action loop**, where:
   - the agent observes the environment,
   - selects an action,
   - affects the environment,
@@ -43,4 +43,4 @@ This section marks the first **formal mathematical grounding** of classical Arti
 
 ---
 
-- We now begin Section 1.1: **Mathematical Representation of State**
+- We now begin Section 2.1: **Mathematical Representation of State**

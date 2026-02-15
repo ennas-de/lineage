@@ -10,7 +10,7 @@ current_hour = datetime.datetime.now().hour
 
 # lets see what this 'hour' or current time is
 print(current_hour)
-# output: 4 (it;s 4:11 am right now)
+# output: 4 (it;s 4:11am right now)
 
 # Determine the time of day based on the current hour
 if 5 <= current_hour < 12:
@@ -28,4 +28,4 @@ else:
 # Good night!               <- message based on current hour
 
 
-# This does not bring about intelligence per say, but it seems like it if we code enough 'rules'
+# This does not bring about intelligence per say, but it seems like it if we code enough 'rules'.
