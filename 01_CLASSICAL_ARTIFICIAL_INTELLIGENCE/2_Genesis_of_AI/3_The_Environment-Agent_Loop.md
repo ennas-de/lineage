@@ -29,7 +29,7 @@ At this moment, AI stops being a static algorithm and becomes a **closed-loop sy
 
 ---
 
-## The Core Abstraction (That Never Disappears)
+## 2. The Core Abstraction (That Never Disappears)
 
 At the heart of all AI systems—classical or modern—is a loop:
 
