@@ -54,7 +54,7 @@ By copying human cognition, we risk including its limitations directly into mach
 
 ---
 
-## Rational Agents: Performance Over Resemblance
+## 3. Rational Agents: Performance Over Resemblance
 
 The rational-agent perspective makes a more austere claim:
 
@@ -87,7 +87,7 @@ Rational agents can outperform humans precisely because they are not bound by hu
 
 ---
 
-## What “Rational” Actually Means
+## 4. What “Rational” Actually Means
 
 A rational agent:
 
@@ -97,7 +97,7 @@ A rational agent:
 
 The critical term is **expected**.
 
-Rationality does not mean certainty. It means selecting the best action given uncertainty and limited information.
+`Rationality does not mean certainty`. It means selecting the best action given uncertainty and limited information.
 
 This framing naturally introduces probabilistic reasoning to manage:
 
