@@ -154,7 +154,7 @@ But the structural source of these challenges is already present here.
 
 ---
 
-## A Minimal Formalization
+## 6. A Minimal Formalization
 
 At its simplest, the loop consists of:
 
