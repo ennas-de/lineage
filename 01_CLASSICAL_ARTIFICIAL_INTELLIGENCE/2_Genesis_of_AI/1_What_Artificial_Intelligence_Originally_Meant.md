@@ -234,4 +234,4 @@ Everything that followed - learning, probability, deep architectures - arose fro
 
 The original insight remains foundational:
 
-Intelligence is the capacity to select actions that achieve goals under constraints.
+`Intelligence is the capacity to select actions that achieve goals under constraints.`
