@@ -129,7 +129,7 @@ This introduces **time** into intelligence. The agent’s present choice shapes 
 
 ---
 
-## The Feedback Principle (Often Overlooked)
+## 5. The Feedback Principle (Often Overlooked)
 
 The loop creates feedback:
 
