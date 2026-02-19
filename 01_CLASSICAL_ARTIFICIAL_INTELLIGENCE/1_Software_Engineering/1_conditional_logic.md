@@ -135,6 +135,8 @@ Maps inputs directly to outputs, avoiding long conditional chains.
 
 Higher-order functions (`map`, `filter`, composition) shift from imperative branching to declarative transformations.
 
+---
+
 These approaches improve structure and maintainability.
 
 But they do not fundamentally solve the core issue.
