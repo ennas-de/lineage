@@ -159,7 +159,7 @@ Intelligence concerns the _quality of decisions given available information and 
 
 Formally, early AI systems were modeled as implementing a function:
 
-Action = f(Perception, Goal)
+`Action = f(Perception, Goal)`
 
 More abstractly, a policy:
 
