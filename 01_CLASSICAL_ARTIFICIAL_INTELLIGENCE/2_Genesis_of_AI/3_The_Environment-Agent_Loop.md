@@ -171,7 +171,7 @@ Only interaction.
 
 ---
 
-## Why the Environment Deserves Equal Attention
+## 7. Why the Environment Deserves Equal Attention
 
 Early AI systems often failed because:
 
