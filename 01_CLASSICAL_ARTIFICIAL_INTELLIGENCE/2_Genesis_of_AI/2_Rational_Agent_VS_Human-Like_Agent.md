@@ -1,6 +1,6 @@
 # Section 1.2.2: Rational Agents vs. Human-Like Agents
 
-## The First Philosophical Fork in AI - and Why It Still Matters
+## 1. The First Philosophical Fork in AI - and Why It Still Matters
 
 Early in the history of artificial intelligence, the field divided along a foundational question:
 
@@ -19,7 +19,7 @@ Much of the confusion in modern AI arises from blending these two paradigms with
 
 ---
 
-## Human-Like Agents: Imitation as Intelligence
+## 2. Human-Like Agents: Imitation as Intelligence
 
 The human-like perspective asserts:
 
