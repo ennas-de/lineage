@@ -4,7 +4,7 @@
 
 - It is easy, with modern hindsight, to say that **Symbolic AI was doomed from the start** - but this is false.
 - Early AI did not fail because it was misguided; it **succeeded locally** under the constraints of its time.
-- Understanding why symbol manipulation seemed sufficient helps us see **why it eventually broke**..
+- Understanding why symbol manipulation seemed sufficient helps us see **why it eventually broke**.
 
 ---
 

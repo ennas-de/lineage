@@ -139,7 +139,7 @@ Higher-order functions (`map`, `filter`, composition) shift from imperative bran
 
 These approaches improve structure and maintainability.
 
-But they do not fundamentally solve the core issue..
+But they do not fundamentally solve the core issue.
 
 They still require:
 

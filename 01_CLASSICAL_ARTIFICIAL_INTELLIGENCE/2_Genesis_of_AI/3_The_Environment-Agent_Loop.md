@@ -23,7 +23,7 @@ This forced early AI researchers to confront a deeper question:
 
 The answer is:
 
-> An environment..
+> An environment.
 
 At this moment, AI stops being a static algorithm and becomes a **closed-loop system**.
 

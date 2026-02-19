@@ -168,7 +168,7 @@ More abstractly, a policy:
 Where:
 
 - π maps observations to actions.
-- The mapping is explicitly engineered..
+- The mapping is explicitly engineered.
 - It is not learned from data.
 
 This formulation became the conceptual foundation for later developments in reinforcement learning, probabilistic reasoning, and modern agent architectures.
