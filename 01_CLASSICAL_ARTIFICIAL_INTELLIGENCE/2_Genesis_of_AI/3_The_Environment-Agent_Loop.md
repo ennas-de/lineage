@@ -101,7 +101,7 @@ This limitation is not a flaw - it is fundamental. Intelligence exists precisely
 
 Decision answers:
 
-> Given what I observe, what action should I take?
+> Given what I observe (through perception), what action should I take?
 
 In early AI systems:
 
