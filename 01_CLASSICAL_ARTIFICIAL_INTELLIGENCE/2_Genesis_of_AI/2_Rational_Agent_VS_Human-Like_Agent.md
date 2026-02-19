@@ -198,11 +198,11 @@ This explains why:
 
 - Deep models are often opaque
 - High-performing systems can feel unsettling
-- “Reasoning” in large language models resembles human explanation without replicating human cognition
+- "Reasoning" in large language models resembles human explanation without replicating human cognition
 
 ---
 
-## Conclusion
+## 10. Conclusion
 
 By choosing the rational-agent framework:
 

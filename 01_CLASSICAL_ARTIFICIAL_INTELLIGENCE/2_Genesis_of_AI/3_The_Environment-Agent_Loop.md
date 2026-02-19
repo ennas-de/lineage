@@ -2,7 +2,7 @@
 
 _(Perception -> Decision -> Action)_
 
-## Why This Loop Marks the Birth of AI as a System
+## 1. Why This Loop Marks the Birth of AI as a System
 
 So far, we have established:
 
@@ -15,7 +15,7 @@ Why?
 
 Because intelligence does not exist in isolation.
 
-We cannot simply declare something “rational” without specifying the frame of reference. Rationality is always relative to something.
+We cannot simply declare something "rational" without specifying the frame of reference. Rationality is always relative to something.
 
 This forced early AI researchers to confront a deeper question:
 
