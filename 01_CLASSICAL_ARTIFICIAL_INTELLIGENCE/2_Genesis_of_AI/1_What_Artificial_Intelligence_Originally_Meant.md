@@ -163,7 +163,7 @@ Formally, early AI systems were modeled as implementing a function:
 
 More abstractly, a policy:
 
-π : Percepts -> Actions
+`π : Percepts -> Actions`
 
 Where:
 
@@ -230,7 +230,7 @@ It began as:
 
 > **Engineered goal-directed behavior.**
 
-Everything that followed—learning, probability, deep architectures—arose from the limitations of handcrafted systems.
+Everything that followed - learning, probability, deep architectures—arose from the limitations of handcrafted systems.
 
 The original insight remains foundational:
 
