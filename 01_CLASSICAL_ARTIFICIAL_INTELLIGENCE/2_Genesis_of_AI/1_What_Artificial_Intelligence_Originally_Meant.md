@@ -4,7 +4,7 @@
 
 The question of intelligence predates computers by centuries. Philosophers and Scientists long debated whether reasoning could be formalized - whether thought itself might be reduced to rule-governed operations.
 
-In 1651, Thomas Hobbes proposed that reasoning is simply _“calculation.”_ This bold claim suggested that thinking might not be mysterious or ineffable, but computational in nature.
+In 1651, Thomas Hobbes proposed that reasoning is simply _“calculation”_. This bold claim suggested that thinking might not be mysterious or ineffable, but computational in nature.
 
 Centuries later, Alan Turing gave this idea operational form. He argued that if a machine could convincingly simulate intelligent behavior, we would have reason to call it intelligent. Intelligence, in this framing, becomes observable performance rather than hidden mental substance.
 
