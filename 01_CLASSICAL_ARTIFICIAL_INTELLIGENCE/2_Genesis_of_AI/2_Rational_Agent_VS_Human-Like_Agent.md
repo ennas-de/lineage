@@ -11,7 +11,7 @@ This is not a superficial distinction.
 It determines:
 
 - How systems are evaluated
-- What “success” means
+- What "success" means
 - Which failures are acceptable
 - How intelligence is defined and measured
 
