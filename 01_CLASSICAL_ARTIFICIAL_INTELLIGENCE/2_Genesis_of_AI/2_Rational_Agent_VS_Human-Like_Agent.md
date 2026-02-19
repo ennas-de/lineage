@@ -192,7 +192,7 @@ Treating human-likeness and rationality as interchangeable leads to flawed expec
 
 ## 9. The Core Insight
 
-> AI’s foundational commitment is to rational action, not human imitation — even when it presents itself in human form.
+> AI’s foundational commitment is to rational action, not human imitation - even when it presents itself in human form.
 
 This explains why:
 
