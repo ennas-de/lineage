@@ -12,7 +12,7 @@ This leads to a foundational question:
 
 > If reasoning is calculation, does sufficiently advanced calculation constitute intelligence?
 
-The term _Artificial Intelligence_ was formally introduced in 1956 by John McCarthy at the Dartmouth Conference. From the beginning, AI was interdisciplinary—drawing from computer science, mathematics, psychology, linguistics, neuroscience, philosophy, and engineering.
+The term _Artificial Intelligence_ was formally introduced in 1956 by John McCarthy at the Dartmouth Conference. From the beginning, AI was interdisciplinary - drawing from computer science, mathematics, psychology, linguistics, neuroscience, philosophy, and engineering.
 
 ---
 
