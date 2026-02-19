@@ -69,7 +69,7 @@ Instead, it centers on:
 - Actions
 - Outcomes
 
-Intelligence becomes a control problem—an engineering challenge of mapping situations to effective responses.
+Intelligence becomes a control proble -an engineering challenge of mapping situations to effective responses.
 
 ---
 
