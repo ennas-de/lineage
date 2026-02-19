@@ -212,6 +212,6 @@ By choosing the rational-agent framework:
 
 And this choice necessitates the next abstraction:
 
-> An explicit agent-environment interaction loop.
+> An explicit agent-environment interaction loop..
 
 That loop remains the structural backbone of AI today.
