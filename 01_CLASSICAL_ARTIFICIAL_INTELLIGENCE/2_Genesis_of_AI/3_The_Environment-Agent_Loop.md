@@ -79,7 +79,7 @@ Intelligence becomes dynamic, not episodic.
 
 ---
 
-## The Three Core Components
+## 4. The Three Core Components
 
 ### 1. Perception
 
@@ -93,7 +93,7 @@ Key properties:
 - Signals may be noisy
 - The true state is never fully accessible
 
-This limitation is not a flaw—it is fundamental. Intelligence exists precisely because information is incomplete.
+This limitation is not a flaw - it is fundamental. Intelligence exists precisely because information is incomplete.
 
 ---
 
