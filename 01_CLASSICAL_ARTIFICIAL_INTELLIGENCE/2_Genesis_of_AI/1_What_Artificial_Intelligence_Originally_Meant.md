@@ -143,7 +143,7 @@ This was a profound conceptual shift.
 
 ---
 
-## 7. Intelligence Is Not Infallibility
+## 7. Intelligence Is Not Correctness
 
 An important clarification followed:
 
