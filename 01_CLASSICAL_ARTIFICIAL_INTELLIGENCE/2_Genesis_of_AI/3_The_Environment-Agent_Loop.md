@@ -48,11 +48,11 @@ Once this loop is defined, we can:
 - Compare different systems
 - Generalize across domains
 
-The loop—not any specific algorithm—is the enduring abstraction.
+The loop - not any specific algorithm - is the enduring abstraction.
 
 ---
 
-## Why the Loop Matters More Than the Algorithm
+## 3. Why the Loop Matters More Than the Algorithm
 
 A static algorithm:
 
