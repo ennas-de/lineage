@@ -109,7 +109,7 @@ Probability theory becomes not optional, but structurally necessary.
 
 ---
 
-## Why the Rational-Agent Model Prevailed
+## 5. Why the Rational-Agent Model Prevailed
 
 The rational-agent framework gradually became dominant because it is:
 
@@ -126,7 +126,7 @@ Performance replaced resemblance.
 
 ---
 
-## The Quiet but Profound Consequence
+## 6. The Quiet but Profound Consequence
 
 Once AI commits to rationality over human likeness, several implications follow:
 
@@ -149,7 +149,7 @@ Even if early researchers did not foresee these developments, the rational-agent
 
 ---
 
-## From Introspection to Performance Measures
+## 7. From Introspection to Performance Measures
 
 Under the rational-agent view, intelligence is evaluated through a performance measure:
 
@@ -169,7 +169,7 @@ Modern machine learning formalizes intelligence as optimization relative to such
 
 ---
 
-## Why This Distinction Still Matters
+## 8. Why This Distinction Still Matters
 
 Contemporary systems blur the line.
 
@@ -190,7 +190,7 @@ Treating human-likeness and rationality as interchangeable leads to flawed expec
 
 ---
 
-## The Core Insight
+## 9. The Core Insight
 
 > AI’s foundational commitment is to rational action, not human imitation — even when it presents itself in human form.
 
