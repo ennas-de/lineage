@@ -44,7 +44,7 @@ To remain teachable, stable, and useful for builders, this project is intentiona
 
 ## Note
 
-- This project serves as the educational foundation for the production initiative **ATLAS AI**, which focuses on developing advanced AI blueprints.
+- This project serves as the educational foundation for the production initiative [**ATLAS AI**](https://github.com/Altruva-Group/ATLAS-AI), which focuses on developing advanced AI blueprints.
 - Do not contribute before studying this guide and understanding the project’s structure and intent.
 - Lineage provides the conceptual grounding necessary to contribute meaningfully to ATLAS AI.
 - The project remains a work in progress, and contributions are welcome from those aligned with its vision.
