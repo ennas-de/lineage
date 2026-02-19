@@ -186,11 +186,11 @@ This forced the field to model environments explicitly, including:
 - Determinism vs. stochasticity
 - Episodic vs. continuous interaction
 
-The environment is not background—it is half the system.
+The environment is not background - it is half the system.
 
 ---
 
-## The Quiet Constraints of the Loop
+## 8. The Quiet Constraints of the Loop
 
 Once the agent-environment loop is formalized, several illusions collapse:
 
@@ -204,7 +204,7 @@ Instead:
 - Decisions become contextual
 - Success becomes relative to environmental dynamics
 
-Pure “perfect logic” is insufficient when interaction unfolds over time. This pressure would eventually expose the limits of purely symbolic AI.
+Pure "perfect logic" is insufficient when interaction unfolds over time. This pressure would eventually expose the limits of purely symbolic AI.
 
 ---
 
