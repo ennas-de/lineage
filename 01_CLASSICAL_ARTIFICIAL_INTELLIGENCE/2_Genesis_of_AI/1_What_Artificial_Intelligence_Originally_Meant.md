@@ -230,7 +230,7 @@ It began as:
 
 > **Engineered goal-directed behavior.**
 
-Everything that followed - learning, probability, deep architectures—arose from the limitations of handcrafted systems.
+Everything that followed - learning, probability, deep architectures - arose from the limitations of handcrafted systems.
 
 The original insight remains foundational:
 
