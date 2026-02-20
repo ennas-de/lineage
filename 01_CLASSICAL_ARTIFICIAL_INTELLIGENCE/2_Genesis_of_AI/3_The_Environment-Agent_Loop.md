@@ -246,4 +246,4 @@ Answering that question leads directly to:
 
 Those developments follow naturally from this foundational abstraction.
 
-But everything begins here-with the loop.
+But everything begins here - with the loop.

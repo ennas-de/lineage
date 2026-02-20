@@ -1,6 +1,6 @@
 # Section 1.2.4: Why Symbol Manipulation Was Enough (At First)
 
-## Historical Context Often Overlooked
+## 1. Historical Context Often Overlooked
 
 - It is easy, with modern hindsight, to say that **Symbolic AI was doomed from the start** - but this is false.
 - Early AI did not fail because it was misguided; it **succeeded locally** under the constraints of its time.
@@ -8,7 +8,7 @@
 
 ---
 
-## The World Looked Symbolic
+## 2. The World Looked Symbolic
 
 Early AI researchers operated in domains where:
 
@@ -34,7 +34,7 @@ In these controlled worlds:
 
 ---
 
-## The Symbolic Hypothesis
+## 3. The Symbolic Hypothesis
 
 The implicit assumption was:
 
