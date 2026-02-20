@@ -89,7 +89,7 @@ At the time, these were critical.
 
 ---
 
-## Why Search + Symbols Felt Universal
+## 6. Why Search + Symbols Felt Universal
 
 - Once the world is symbolic, intelligence reduces to:
 
@@ -103,12 +103,12 @@ This implies:
 - Goal tests
 - Heuristics
 
-Suddenly, many problems-chess, theorem proving, scheduling-looked essentially the same.
+Suddenly, many problems - chess, theorem proving, scheduling - looked essentially the same.
 This created **early optimism** in AI’s generality.
 
 ---
 
-## Why Learning Was Initially Unnecessary
+## 7. Why Learning Was Initially Unnecessary
 
 If:
 
@@ -124,7 +124,7 @@ If:
 
 ---
 
-## The Hidden Assumption That Breaks Everything
+## 8. The Hidden Assumption That Breaks Everything
 
 Symbolic AI relied on a silent premise:
 
@@ -142,7 +142,7 @@ Real-world intelligence constantly violates this assumption.
 
 ---
 
-## The Scaling Wall
+## 9. The Scaling Wall
 
 As problems grew:
 
