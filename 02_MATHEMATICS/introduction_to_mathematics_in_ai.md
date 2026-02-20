@@ -24,7 +24,7 @@ This Chapter marks the first **formal mathematical grounding** of classical Arti
 
 ---
 
-### Before Learning Became Central
+### 1. Before Learning Became Central
 
 - At this point in history:
   - There was little or no data
