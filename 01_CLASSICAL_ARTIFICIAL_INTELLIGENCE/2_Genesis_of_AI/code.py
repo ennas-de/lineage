@@ -127,7 +127,7 @@ In this Agent class we defined:
     c. An action-enabled method
 
 3. To run this setup:
-    a. We initialized the Environment's object 'env', and we set the 'goal' to 5. This is the goal we want the agent (or any agent at that) that will act on the environment to achieve. Just like in our switching off the light task. The desired target we want the environment's state to be set to after the agent's actions have been performed.
+    a. We initialized the Environment's object 'env', and we set the 'goal' to 5. This is the goal we want the agent (that will act on the environment) to achieve, just like in our switching off the light task. This is the desired target we want the environment's state to be (set to) after the agent's actions have been performed.
     b. We also initialized the object of the Agent's class and also set the same goal for the agent.
 
 4. We kept a constant loop to keep checking if the agent has effected the environment enough that the state has now reached the intended goal. 
