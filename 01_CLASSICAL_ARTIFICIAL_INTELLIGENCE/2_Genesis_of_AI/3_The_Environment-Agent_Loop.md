@@ -208,7 +208,7 @@ Pure "perfect logic" is insufficient when interaction unfolds over time. This pr
 
 ---
 
-## Why the Loop Still Governs Modern AI
+## 9. Why the Loop Still Governs Modern AI
 
 Even today, advanced systems reduce to the same structure.
 
@@ -221,11 +221,11 @@ For example:
 The interface has changed.
 The loop has not.
 
-Whether classical planner, reinforcement learner, or large language model agent—the structure persists.
+Whether classical planner, reinforcement learner, or large language model agent - the structure persists.
 
 ---
 
-## Conclusion
+## 10. Conclusion
 
 Intelligence is not an algorithm.
 
