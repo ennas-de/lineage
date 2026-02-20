@@ -231,7 +231,7 @@ Intelligence is not an algorithm.
 
 It is an ongoing interaction loop between an agent and an environment.
 
-Once this is understood, superficial “intelligence” becomes easy to spot. If there is no feedback, no adaptation to environmental consequences, no sustained interaction-there is no genuine agency.
+Once this is understood, superficial "intelligence" becomes easy to spot. If there is no feedback, no adaptation to environmental consequences, no sustained interaction-there is no genuine agency.
 
 The environment-agent loop also forces a new question:
 
