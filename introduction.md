@@ -1,6 +1,6 @@
 # Introduction to the Lineage Project
 
-Have you ever wondered **why** Artificial Intelligence evolved the way it did — not just _how_, but what constraints forced each breakthrough?
+Have you ever wondered **why** Artificial Intelligence evolved the way it did - not just _how_, but what constraints forced each breakthrough?
 
 The Lineage project traces the **causal chains** behind AI’s development. It shows how each stage emerged as a necessary response to the limitations of the previous one:
 
@@ -20,7 +20,7 @@ Lineage is about understanding not only what happened, but why each stage _had t
 
 My name is **Abdulhakeem Muhammed**, creator of the Lineage project.
 
-I began my career as a Software Engineer, driven by a desire to build systems that solve real-world problems. Over time, that interest evolved into a deeper fascination with Artificial Intelligence — not merely using it, but understanding its foundations.
+I began my career as a Software Engineer, driven by a desire to build systems that solve real-world problems. Over time, that interest evolved into a deeper fascination with Artificial Intelligence - not merely using it, but understanding its foundations.
 
 My early exposure to AI came through machine learning algorithms and basic neural networks. Yet I quickly realized that applying models was not the same as understanding them. Questions began to surface:
 
@@ -34,7 +34,7 @@ Later, I entered the world of Generative AI, Large Language Models (LLMs), and R
 
 At each stage, I noticed the same pattern:
 
-Modern systems were often treated as black boxes — powerful, but disconnected from their intellectual lineage.
+Modern systems were often treated as black boxes - powerful, but disconnected from their intellectual lineage.
 
 That realization became the seed of this project.
 
@@ -55,7 +55,7 @@ But rarely are we shown how these domains causally connect.
 
 This concern first surfaced when I wrote a LinkedIn piece titled _“Demystifying AI, ML, and Statistics: Understanding Their Interconnections.”_ I attempted to clarify their relationships. But the deeper I studied, the more I saw that the fragmentation extended far beyond terminology.
 
-In emerging areas like LLMs, RAG, and Agentic AI, innovations are often presented as isolated breakthroughs — without explaining:
+In emerging areas like LLMs, RAG, and Agentic AI, innovations are often presented as isolated breakthroughs - without explaining:
 
 - **Why** they were necessary
 - **How** they depended on earlier ideas
@@ -71,11 +71,11 @@ This fragmentation creates several problems:
 - Developers build without grounding in Classical AI, Statistics, or optimization theory.
 - Advanced techniques circulate among small groups, leading to uneven standards.
 - Foundational disciplines risk being excluded from modern AI discourse.
-- AI appears mystical — accessible only to a “selected few.”
+- AI appears mystical - accessible only to a “selected few.”
 
 But AI is not magic. It is accumulated structure.
 
-When breakthroughs are framed as sudden revolutions instead of responses to bottlenecks, the field becomes harder to enter — and harder to advance responsibly.
+When breakthroughs are framed as sudden revolutions instead of responses to bottlenecks, the field becomes harder to enter - and harder to advance responsibly.
 
 ---
 
@@ -83,16 +83,16 @@ When breakthroughs are framed as sudden revolutions instead of responses to bott
 
 The Lineage project exists to address this fragmentation.
 
-Its purpose is to construct a **structured, explicit reconstruction of AI’s causal dependencies** — not merely documenting what happened, but explaining:
+Its purpose is to construct a **structured, explicit reconstruction of AI’s causal dependencies** - not merely documenting what happened, but explaining:
 
 - What limitation forced the next idea
 - What mathematical tools were required
 - What abstraction survived implementation shifts
 - What new capability emerged
 
-AI should not be seen as a sudden leap into the unknown. It is a **constrained evolution** — each stage solving problems discovered in the previous one.
+AI should not be seen as a sudden leap into the unknown. It is a **constrained evolution** - each stage solving problems discovered in the previous one.
 
-We aim to support human and business capability — not replace it.
+We aim to support human and business capability - not replace it.
 
 By documenting AI’s causal structure, we make it:
 

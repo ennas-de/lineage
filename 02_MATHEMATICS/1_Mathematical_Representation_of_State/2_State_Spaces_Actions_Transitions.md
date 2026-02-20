@@ -50,7 +50,7 @@ This forms a **state-space graph**:
 - **Edges:** Actions
 - **Paths:** Plans or solutions
 
-This is also the foundation for **search, planning, and optimization**—the next critical layer of classical AI.
+This is also the foundation for **search, planning, and optimization**-the next critical layer of classical AI.
 
 **Canonical Example: 8-Puzzle**
 

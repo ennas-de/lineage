@@ -4,7 +4,7 @@
 
 # LINEAGE PROJECT DESCRIPTION
 
-## What Is “Lineage” — and How It Differs from “History”
+## What Is “Lineage” - and How It Differs from “History”
 
 **Lineage** is not a timeline.
 It is an **opinionated causal reconstruction** of the intellectual chain that led to modern AI systems.
@@ -25,7 +25,7 @@ This project does **not** attempt to catalog every school of thought, debate, or
 - We prioritize causal clarity over completeness.
 - We remain academically grounded while being explicit about scope.
 
-Lineage is therefore a structured reconstruction of the **causal dependencies** connecting the intellectual, mathematical, and engineering evolution of AI from its inception to the present — organized as a coherent teaching path.
+Lineage is therefore a structured reconstruction of the **causal dependencies** connecting the intellectual, mathematical, and engineering evolution of AI from its inception to the present - organized as a coherent teaching path.
 
 The aim is not merely to list milestones, but to show the **logical necessity** behind them.
 
@@ -55,7 +55,7 @@ To remain teachable, stable, and useful for builders, this project is intentiona
 
 The central purpose of Lineage is to make visible the **causal chains** underlying AI’s development.
 
-Rather than presenting AI as a series of disconnected breakthroughs, the project shows how each stage emerged in response to identifiable limitations in the previous one — and depended on specific mathematical or engineering prerequisites.
+Rather than presenting AI as a series of disconnected breakthroughs, the project shows how each stage emerged in response to identifiable limitations in the previous one - and depended on specific mathematical or engineering prerequisites.
 
 The project aims to clarify:
 
@@ -117,7 +117,7 @@ The Lineage project is organized into interconnected sections, each representing
    From sequence modeling to large-scale language models.
 
 7. **Retrieval, Memory, and Grounding**
-   Why standalone models are insufficient — and how external knowledge and memory improve reliability.
+   Why standalone models are insufficient - and how external knowledge and memory improve reliability.
 
 8. **From Models to Agents**
    The shift from prediction systems to goal-directed acting systems.

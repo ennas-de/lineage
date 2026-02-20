@@ -54,9 +54,9 @@ Given the evidence at the time, this was **a reasonable assumption**.
 
 ---
 
-## Symbols as Compressed Meaning
+## 4. Symbols as Compressed Meaning
 
-- Symbols are not arbitrary tokens—they **stand for meaningful entities or states in the world**.
+- Symbols are not arbitrary tokens - they **stand for meaningful entities or states in the world**.
 - Examples:
   - `KING_IN_CHECK`
   - `GOAL_REACHED`
@@ -103,7 +103,7 @@ This implies:
 - Goal tests
 - Heuristics
 
-Suddenly, many problems—chess, theorem proving, scheduling—looked essentially the same.
+Suddenly, many problems-chess, theorem proving, scheduling-looked essentially the same.
 This created **early optimism** in AI’s generality.
 
 ---
@@ -157,7 +157,7 @@ Adding more rules made systems:
 - Less reliable
 - Harder to reason about
 
-**This was not a performance issue—it was a representation crisis.**
+**This was not a performance issue-it was a representation crisis.**
 
 ---
 

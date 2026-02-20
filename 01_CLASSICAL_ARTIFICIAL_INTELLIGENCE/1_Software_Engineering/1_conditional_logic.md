@@ -161,7 +161,7 @@ They encode rules.
 
 They simulate intelligent behavior within **narrow, predefined spaces**.
 
-Their failure is not only architectural — it is epistemic.
+Their failure is not only architectural - it is epistemic.
 
 They require the designer to:
 
