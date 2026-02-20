@@ -157,11 +157,11 @@ Adding more rules made systems:
 - Less reliable
 - Harder to reason about
 
-**This was not a performance issue-it was a representation crisis.**
+**This was not a performance issue - it was a representation crisis.**
 
 ---
 
-## The Key Realization
+## 10. The Key Realization
 
 - The hardest part of intelligence is **representation**, not reasoning.
 - If we could correctly map the world into rules and symbols, the agent could act correctly.
