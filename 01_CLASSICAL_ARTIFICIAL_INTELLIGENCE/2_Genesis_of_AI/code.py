@@ -52,7 +52,7 @@ class NumberLineEnvironment(Environment):
 
 
 class Agent(ABC):
-    """ An abstraction for the Agent class"""
+    """ An abstraction for the Agent class """
 
     @abstractmethod
     def perceive(self, state):
