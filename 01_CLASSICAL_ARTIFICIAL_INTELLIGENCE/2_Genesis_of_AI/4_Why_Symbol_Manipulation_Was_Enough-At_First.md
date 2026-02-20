@@ -175,7 +175,7 @@ This realization led directly to:
 
 ---
 
-## Conclusion
+## 11. Conclusion
 
 - **Symbolic AI worked** because the world was **small, clean, and cooperative**, not because symbols alone were sufficient.
 
