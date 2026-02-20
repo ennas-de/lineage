@@ -1,4 +1,4 @@
-# Section 1.2.3: The Environment-Agent Loop
+# Chapter 1.2.3: The Environment-Agent Loop
 
 _(Perception -> Decision -> Action)_
 

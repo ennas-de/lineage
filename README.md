@@ -96,7 +96,7 @@ This demystifies AI. It reveals that:
 
 ## Project Structure
 
-The Lineage project is organized into interconnected sections, each representing a necessary stage in the evolution of modern AI:
+The Lineage project is organized into interconnected chapters, each representing a necessary stage in the evolution of modern AI:
 
 1. **Classical (Old) Artificial Intelligence**
    Symbolic reasoning, rule-based systems, expert systems, and the rational-agent abstraction.
@@ -131,7 +131,7 @@ The Lineage project is organized into interconnected sections, each representing
 11. **Synthesis: Transcendence**
     Forward-looking integration patterns and future trajectories.
 
-Each section is explicitly interlinked to reveal:
+Each chapter is explicitly interlinked to reveal:
 
 - **Prerequisite relationships**
 - **Problem-solution transitions**

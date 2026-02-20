@@ -1,4 +1,4 @@
-# Section 1.2.1: What Artificial Intelligence Originally Meant
+# Chapter 1.2.1: What Artificial Intelligence Originally Meant
 
 ## 1. Historical Foundations
 

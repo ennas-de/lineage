@@ -1,4 +1,4 @@
-# Section 2.1.1: Mathematical Representation of State
+# Chapter 2.1.1: Mathematical Representation of State
 
 To build **rational, goal-directed agents**, AI needed a formal way to describe the world. This required **mathematical representation of states**.
 
@@ -64,4 +64,4 @@ If indeed States can be represented in several ways, then how do we know which s
 
 ---
 
-This takes us to Section 2.2: State Spaces, Actions, and Transitions.
+This takes us to Chapter 2.2: State Spaces, Actions, and Transitions.

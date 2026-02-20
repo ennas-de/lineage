@@ -1,4 +1,4 @@
-# Section 1.2.2: Rational Agents vs. Human-Like Agents
+# Chapter 1.2.2: Rational Agents vs. Human-Like Agents
 
 ## 1. The First Philosophical Fork in AI - and Why It Still Matters
 

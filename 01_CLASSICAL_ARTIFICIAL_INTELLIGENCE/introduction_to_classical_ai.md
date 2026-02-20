@@ -14,7 +14,7 @@ Humans have always sought automation - tools that reduce effort and increase eff
 
 The rise of programmable computers made this possible. Software engineering provided the mechanisms. Logic provided the structure. Formal rules provided the intelligence - or what appeared to be intelligence.
 
-In this section, we examine how intelligence was first engineered using nothing more than conditionals, symbolic representations, and structured reasoning.
+In this chapter, we examine how intelligence was first engineered using nothing more than conditionals, symbolic representations, and structured reasoning.
 
 ---
 
@@ -35,9 +35,9 @@ To understand where AI is going, we must understand how it began.
 
 ---
 
-## Scope of This Section
+## Scope of This Chapter
 
-In this section, we will:
+In this chapter, we will:
 
 - Examine foundational software engineering principles that allowed systems to make conditional decisions
 - Explore how early researchers first conceptualized intelligence
@@ -80,7 +80,7 @@ Why early AI believed reasoning over symbols could scale - and what limitations 
 
 ---
 
-This section sets the intellectual foundation for everything that follows.
+This chapter sets the intellectual foundation for everything that follows.
 
 `Classical AI was not a failure.`
 It was the first successful formalization of intelligence as structured action under constraints.

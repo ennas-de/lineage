@@ -1,6 +1,6 @@
-# Section 2.1.2: State Spaces, Actions, and Transitions
+# Chapter 2.1.2: State Spaces, Actions, and Transitions
 
-In Section 1, we saw that **classical AI implemented intelligence through explicit symbolic and rule-based manipulation**.
+In Chapter 1, we saw that **classical AI implemented intelligence through explicit symbolic and rule-based manipulation**.
 
 This immediately raises a key question:
 

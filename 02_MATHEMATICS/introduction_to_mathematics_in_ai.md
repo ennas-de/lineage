@@ -1,8 +1,8 @@
 # Chapter 02: Introduction of Mathematics into Artificial Intelligence
 
-This section marks the first **formal mathematical grounding** of classical Artificial Intelligence.
+This Chapter marks the first **formal mathematical grounding** of classical Artificial Intelligence.
 
-- In Section 1, we defined **intelligence** as the ability to achieve goals across a range of environments.
+- In Chapter 1, we defined **intelligence** as the ability to achieve goals across a range of environments.
 
 - At this stage in AI’s history, intelligent behavior was implemented primarily through:
   - **Symbolic representations of the world**
@@ -43,4 +43,4 @@ This section marks the first **formal mathematical grounding** of classical Arti
 
 ---
 
-- We now begin Section 2.1: **Mathematical Representation of State**
+- We now begin Chapter 2.1: **Mathematical Representation of State**

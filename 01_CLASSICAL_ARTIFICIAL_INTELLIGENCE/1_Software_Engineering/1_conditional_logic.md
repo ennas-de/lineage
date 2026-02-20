@@ -1,4 +1,4 @@
-## Section 1.1.1: The Logic of the Conditional
+## Chapter 1.1.1: The Logic of the Conditional
 
 In software engineering, the **conditional statement** is one of the most fundamental constructs. It allows a program to choose between alternative paths based on whether a condition evaluates to true or false.
 
@@ -185,4 +185,4 @@ The limitations of hand-coded conditionals exposed a deeper problem:
 
 This question marks the transition from basic software engineering to the **Genesis of Artificial Intelligence**.
 
-And that is where Section 1.2 begins.
+And that is where Chapter 1.2 begins.

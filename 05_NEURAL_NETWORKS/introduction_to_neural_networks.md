@@ -1,5 +1,5 @@
 # Neural Networks
 
-This section will introduce Neural Networks. We will look at why hand-crafted features (from ML Section) failed.
+This chapter will introduce Neural Networks. We will look at why hand-crafted features (from ML chapter) failed.
 
 Status: Planned

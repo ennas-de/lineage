@@ -1,5 +1,5 @@
 # Agents
 
-This section will introduce what `Agents` and their architectures.
+This chapter will introduce what `Agents` and their architectures.
 
 Status: Planned
