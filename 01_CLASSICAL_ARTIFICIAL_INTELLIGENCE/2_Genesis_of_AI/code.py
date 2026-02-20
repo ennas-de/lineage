@@ -130,7 +130,7 @@ In this Agent class we defined:
     a. We initialized the Environment's object 'env', and we set the 'goal' to 5. This is the goal we want the agent (that will act on the environment) to achieve, just like in our switching off the light task. This is the desired target we want the environment's state to be (set to) after the agent's actions have been performed.
     b. We also initialized the object of the Agent's class and also set the same goal for the agent.
 
-4. We kept a constant loop to keep checking if the agent has effected the environment enough that the state has now reached the intended goal. 
+4. We use a constant loop to keep checking if the agent has effected the environment enough that the state has now reached the intended goal. 
 With this loop, the agent keeps affecting the environment's state till the goal is reached. The agent perceive the state, decide the actions to perform (depending on the perceived state), then act on the environment.
 
 5. In every loop, we check the state, the agent perceive the (new) state from the environment, and updates it's own internal state's record, then decide on which best action moves it closer to the intended goal. Then it act on the environment to update the state of the environment.
