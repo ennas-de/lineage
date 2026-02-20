@@ -72,7 +72,7 @@ This is **manual feature engineering**, long before the term existed.
 
 ---
 
-## Why Symbolic Representation Fit the Environment-Agent Loop
+## 5. Why Symbolic Representation Fit the Environment-Agent Loop
 
 - **Perception:** Detect symbolic facts
 - **Decision:** Apply rules to symbols
