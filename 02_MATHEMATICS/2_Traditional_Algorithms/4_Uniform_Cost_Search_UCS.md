@@ -84,10 +84,47 @@ Let's say you have this graph with edge costs:
 
 **Step-by-step execution:**
 
-1. **Priority Queue: [(A, 0)]** → Remove A (cost 0), add neighbors
-2. **Priority Queue: [(B, 1), (C, 4)]** → Remove B (cost 1), add neighbors
-3. **Priority Queue: [(D, 3), (C, 4)]** → Remove D (cost 3), not C!
-4. **Priority Queue: [(C, 4)]** → Remove C (cost 4)...
+1. Create an empty Priority Queue
+```
+    Priority Queue (Min-Heap)
+    Empty
+    
+PQueue: []
+```
+
+2. **PQueue: []** → Add the start Node 'A' with cost 0
+```
+         (A, 0)  ← Lowest cost (Added 'A' with cumulative cost 0)
+         
+PQueue: [(A, 0)]
+```
+
+3. **PQueue: [(A, 0)]** → Remove A (cost 0), add its neighbors with their costs
+```
+         (B, 1)  ← Lowest cost (Removed 'A', added 'B' with cost 1 and 'C' with cost 4)
+        /
+    (C, 4)
+    
+PQueue: [(B, 1), (C, 4)]
+```
+
+4. **PQueue: [(B, 1), (C, 4)]** → Remove B (cost 1), add its neighbors
+```
+         (D, 3)  ← Lowest cost (Removed 'B', added 'D' with cost 1+2=3)
+        /
+    (C, 4)
+    
+PQueue: [(D, 3), (C, 4)]
+```
+
+5. **PQueue: [(D, 3), (C, 4)]** → Remove D (cost 3), not C!
+```
+         (C, 4)  ← Lowest cost remaining
+         
+PQueue: [(C, 4)]
+```
+
+6. **PQueue: [(C, 4)]** → Remove C (cost 4)...
 
 Notice how we explored **A → B → D → C** even though C is a direct child of A. Why? Because the path A→B→D (cost 3) is cheaper than exploring C (cost 4) directly.
 
