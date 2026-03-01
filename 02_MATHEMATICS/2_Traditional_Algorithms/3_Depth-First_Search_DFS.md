@@ -81,11 +81,61 @@ D   E   F
 
 **Step-by-step execution:**
 
-1. **Stack: [A]** → Pop A, push its neighbors
-2. **Stack: [B, C]** → Pop C (top), push its neighbors
-3. **Stack: [B, F]** → Pop F (top), no neighbors
-4. **Stack: [B]** → Pop B, push its neighbors
-5. **Stack: [D, E]** → Pop E (top), then D...
+1. Create an empty Stack
+```
+    ┌───────┐
+    │       │
+    └───────┘
+Stack: []
+```
+
+2. **Stack: []** → Add the start Node 'A' to the Stack
+```
+    ┌───────┐
+    │   A   │  ← TOP (Added/Pushed 'A' to the top of the Stack)
+    └───────┘
+Stack: [A]
+```
+
+3. **Stack: [A]** → Pop A (top), push its neighbors (B & C) to the top
+```
+    ┌───────┐
+    │   C   │  ← TOP (Popped 'A', then pushed 'B' and 'C'. C is on top)
+    ├───────┤
+    │   B   │
+    └───────┘
+Stack: [B, C]
+```
+
+4. **Stack: [B, C]** → Pop C (top), push its neighbors (F) to the top
+```
+    ┌───────┐
+    │   F   │  ← TOP (Popped 'C', then pushed 'F')
+    ├───────┤
+    │   B   │
+    └───────┘
+Stack: [B, F]
+```
+
+5. **Stack: [B, F]** → Pop F (top), no neighbors
+```
+    ┌───────┐
+    │   B   │  ← TOP (Popped 'F', F has no children/neighbors)
+    └───────┘
+Stack: [B]
+```
+
+6. **Stack: [B]** → Pop B (top), push its neighbors (D & E) to the top
+```
+    ┌───────┐
+    │   E   │  ← TOP (Popped 'B', then pushed 'D' and 'E'. E is on top)
+    ├───────┤
+    │   D   │
+    └───────┘
+Stack: [D, E]
+```
+
+7. **Stack: [D, E]** → Pop E (top), then D...
 
 Notice how we went **A → C → F** before exploring B's children. That's the "depth-first" behavior caused by the stack.
 
