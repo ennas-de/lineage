@@ -72,11 +72,48 @@ D   E   F
 
 **Step-by-step execution:**
 
-1. **Queue: [A]** → Remove A (front), add its neighbors to back
-2. **Queue: [B, C]** → Remove B (front), add its neighbors to back
-3. **Queue: [C, D, E]** → Remove C (front), add its neighbors to back
-4. **Queue: [D, E, F]** → Remove D (front), no neighbors
-5. **Queue: [E, F]** → Remove E (front), then F...
+1. Create an empty Queue
+┌───┬───┬───┬───┬───┐
+│   │   │   │   │   │  
+└───┴───┴───┴───┴───┘
+Queue: []
+
+2. **Queue: []** → Add the start Node 'A' to the Queue
+
+┌───┬───┬───┬───┬───┐
+│ A │   │   │   │   │  ← Added (Enqueue) 'A' to the front of the Queue (or list/line)
+└───┴───┴───┴───┴───┘
+Queue: [A]
+
+3. **Queue: [A]** → Remove A (front), add its neighbors (B & C) to the back
+
+┌───┬───┬───┬───┬───┐
+│ B │ C │   │   │   │  ← Removed (Dequeue) 'A' from the front of the Queue (or list/line), then added the next nodes of A to the queue (B & C)
+└───┴───┴───┴───┴───┘
+Queue: [B, C]
+
+4. **Queue: [B, C]** → Remove B (front), add its next nodes (neighbors) to the back of the queue
+
+┌───┬───┬───┬───┬───┐
+│ C │ D │ E │   │   │  ← Removed (Dequeue) 'B' from the front of the Queue (or list/line), then added its next nodes (D & E) to the queue
+└───┴───┴───┴───┴───┘
+Queue: [C, D, E]
+
+5. **Queue: [C, D, E]** → Remove C (front), add its neighbors to the back
+
+┌───┬───┬───┬───┬───┐
+│ D │ E │ F │   │   │  ← Removed (Dequeue) 'C' from the front of the Queue, then added its next nodes (F) to the back of the queue
+└───┴───┴───┴───┴───┘
+Queue: [D, E, F]
+
+6. **Queue: [D, E, F]** → Remove D (front), no neighbors
+
+┌───┬───┬───┬───┬───┐
+│ E │ F │   │   │   │  ← Removed (Dequeue) 'D' from the front of the Queue, D does not have any children/neighbors/next nodes
+└───┴───┴───┴───┴───┘
+Queue: [E, F]
+
+7. **Queue: [E, F]** → Remove E (front), then F...
 
 Notice how we went **A → B → C → D → E → F** (level by level). That's the "breadth-first" behavior caused by the queue.
 
