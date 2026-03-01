@@ -181,8 +181,8 @@ That is why UCS is needed later.
 
 Let:
 
-- b = branching factor (average number of children per node)
-- d = depth of the shallowest goal
+- `b` = branching factor (average number of children per node)
+- `d` = depth of the shallowest goal
 
 Then BFS has:
 
