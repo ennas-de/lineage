@@ -41,7 +41,7 @@ This means **the most recently added node gets explored first**, which creates t
      from TOP
         │
     ┌───────┐
-    │   5   │  ← TOP (Last In, First Out)
+    │   5   │  ← TOP (Last In, First Out - LIFO)
     ├───────┤
     │   4   │
     ├───────┤
@@ -49,7 +49,7 @@ This means **the most recently added node gets explored first**, which creates t
     ├───────┤
     │   2   │
     ├───────┤
-    │   1   │  ← BOTTOM (First In)
+    │   1   │  ← BOTTOM (First In, Last Out - FILO)
     └───────┘
 
 Operation: Add to TOP, Remove from TOP
