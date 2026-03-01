@@ -1,13 +1,13 @@
 # Chapter 2.2.1: Uninformed Search Algorithms (BFS, DFS, UCS)
 
-In Chapter 2.1, we built the mathematical frame:
+In Chapter 2.1, we built the mathematical foundation:
 
-- state
-- action
-- transition
-- goal
+- State
+- Action
+- Transition
+- Goal
 
-Once that frame is ready, the next question is practical:
+Once that foundation is in place, a practical question emerges:
 
 > How does an agent actually move through the state space to find a solution?
 
@@ -23,43 +23,43 @@ Uninformed search (also called blind search) means:
 
 It only uses the problem definition:
 
-- initial state
-- legal actions
-- transition model
-- goal test
-- (optionally) path cost
+- Initial state
+- Legal actions
+- Transition model
+- Goal test
+- (Optionally) path cost
 
 No extra guidance is provided.
 
-So the algorithm explores systematically, not magically.
+The algorithm explores systematically, not magically.
 
 ---
 
 ## 2. Why This Was a Big Step in Classical AI
 
-Early AI needed a general way to solve many problems:
+Early AI needed a general way to solve many different problems:
 
-- puzzle solving
-- path finding
-- planning
-- theorem proving
+- Puzzle solving
+- Pathfinding
+- Planning
+- Theorem proving
 
-Uninformed search gave that general mechanism.
+Uninformed search provided that general mechanism.
 
 Once a problem is modeled as a state-space graph:
 
-- nodes = states
-- edges = actions/transitions
+- Nodes = states
+- Edges = actions/transitions
 
-the agent can search that graph using a fixed procedure.
+The agent can search that graph using a fixed procedure.
 
-That was powerful because one algorithmic idea could be reused across many domains.
+This was powerful because one algorithmic idea could be reused across many domains.
 
 ---
 
 ## 3. The Core Logic Behind All Uninformed Search
 
-All these algorithms follow the same loop:
+All these algorithms follow the same basic loop:
 
 1. Start from an initial state.
 2. Expand states to generate successor states.
@@ -76,7 +76,7 @@ Imagine you enter a new school building and need to find the principal's office,
 
 - If you check rooms level by level from the entrance, that is BFS-style behavior.
 - If you keep following one hallway as far as possible before coming back, that is DFS-style behavior.
-- If moving between some corridors has different effort/cost and you always pick the cheapest route so far, that is UCS-style behavior.
+- If moving between some corridors has different effort or cost and you always pick the cheapest route so far, that is UCS-style behavior.
 
 Same building. Different search strategy.
 
@@ -98,9 +98,9 @@ Same building. Different search strategy.
 
 ### Uniform-Cost Search (UCS)
 
-- Expands the node with the lowest cumulative path cost `g(n)`.
+- Expands the node with the lowest cumulative path cost g(n).
 - Complete and optimal when all step costs are non-negative.
-- Generalizes BFS to unequal action costs.
+- Generalizes BFS to handle unequal action costs.
 
 ---
 
@@ -113,24 +113,24 @@ This section marks an important shift:
 
 It is still classical AI:
 
-- explicit states
-- explicit rules
-- explicit transitions
-- no learning
+- Explicit states
+- Explicit rules
+- Explicit transitions
+- No learning
 
 But we are now moving from representation to algorithmic procedure.
 
-That transition is a core part of AI lineage.
+That transition is a core part of AI's lineage.
 
 ---
 
 ## 7. What Comes Next
 
-The next sections break these algorithms one by one:
+The next sections examine these algorithms one by one:
 
 - Chapter 2.2.2: BFS
 - Chapter 2.2.3: DFS
 - Chapter 2.2.4: UCS
 - Chapter 2.2.5: Their shared structure
 
-After that, we can clearly see both their power and their limits, which naturally opens the door to smarter search guidance and later probabilistic thinking.
+After that, we can clearly see both their power and their limits, which naturally opens the door to smarter search guidance and, later, probabilistic thinking.
