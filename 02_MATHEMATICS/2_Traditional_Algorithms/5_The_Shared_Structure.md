@@ -45,28 +45,72 @@ D   E   F
 ### BFS (Queue - FIFO):
 ```
 Step 1: Queue: [A] → Remove A (front)
+┌───┬───┬───┬───┬───┐
+│ A │   │   │   │   │
+└───┴───┴───┴───┴───┘
+
 Step 2: Queue: [B, C] → Remove B (front)
+┌───┬───┬───┬───┬───┐
+│ B │ C │   │   │   │
+└───┴───┴───┴───┴───┘
+
 Step 3: Queue: [C, D, E] → Remove C (front)
+┌───┬───┬───┬───┬───┐
+│ C │ D │ E │   │   │
+└───┴───┴───┴───┴───┘
+
 Step 4: Queue: [D, E, F] → Remove D (front)
-...
+┌───┬───┬───┬───┬───┐
+│ D │ E │ F │   │   │
+└───┴───┴───┴───┴───┘
+
 Order: A → B → C → D → E → F (level by level)
 ```
 
 ### DFS (Stack - LIFO):
 ```
 Step 1: Stack: [A] → Pop A (top)
+    ┌───────┐
+    │   A   │  ← TOP
+    └───────┘
+
 Step 2: Stack: [B, C] → Pop C (top)
+    ┌───────┐
+    │   C   │  ← TOP
+    ├───────┤
+    │   B   │
+    └───────┘
+
 Step 3: Stack: [B, F] → Pop F (top)
+    ┌───────┐
+    │   F   │  ← TOP
+    ├───────┤
+    │   B   │
+    └───────┘
+
 Step 4: Stack: [B] → Pop B (top)
-...
+    ┌───────┐
+    │   B   │  ← TOP
+    └───────┘
+
 Order: A → C → F → B → E → D (deep first)
 ```
 
 ### UCS (Priority Queue - by cost):
 ```
 Step 1: PQueue: [(A,0)] → Remove A (lowest cost)
+         (A, 0)  ← Lowest cost
+
 Step 2: PQueue: [(B,cost_b), (C,cost_c)] → Remove cheapest
+         (B, 1)  ← Lowest cost
+        /
+    (C, 4)
+
 Step 3: Continues removing lowest-cost node...
+         (D, 3)  ← Lowest cost
+        /
+    (C, 4)
+
 Order: Depends on edge costs (cheapest path first)
 ```
 
