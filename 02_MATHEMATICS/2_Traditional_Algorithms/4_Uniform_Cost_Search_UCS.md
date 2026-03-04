@@ -259,7 +259,7 @@ But it moves AI closer to optimization thinking, which becomes central later in 
 - No optimality guarantee
 - Uses less memory
 
-The data structure choice determines what we optimize for: cost, steps, or memory!
+> `The data structure choice determines what we optimize for: cost, steps, or memory!`
 
 ---
 
