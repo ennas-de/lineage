@@ -132,9 +132,9 @@ The frontier stores nodes discovered but not yet expanded.
 
 ```
 QUEUE (BFS - FIFO):
-FRONT [1][2][3][4][5] BACK
-      ↑           ↑
-    Remove       Add
+    FRONT [1][2][3][4][5] BACK
+           ↑           ↑
+         Remove       Add
     
 Order: 1 → 2 → 3 → 4 → 5
 Analogy: Coffee shop line
