@@ -238,7 +238,58 @@ The data structure choice (queue vs stack) is what fundamentally determines the 
 
 ---
 
-## 12. Transition to the Next Algorithm
+## 12. Python Implementation (Graph Search)
+
+```python
+from collections import deque
+
+
+def bfs_shortest_path(graph, start, goal):
+    """
+    graph: dict[state, list[state]]
+    Returns shortest path in number of edges, or None if unreachable.
+    """
+    queue = deque([start])
+    parent = {start: None}
+
+    while queue:
+        node = queue.popleft()
+
+        if node == goal:
+            path = []
+            while node is not None:
+                path.append(node)
+                node = parent[node]
+            return list(reversed(path))
+
+        for neighbor in graph.get(node, []):
+            if neighbor not in parent:  # first time discovered
+                parent[neighbor] = node
+                queue.append(neighbor)
+
+    return None
+
+
+if __name__ == "__main__":
+    graph = {
+        "A": ["B", "C"],
+        "B": ["D", "E"],
+        "C": ["F"],
+        "D": [],
+        "E": [],
+        "F": [],
+    }
+
+    print(bfs_shortest_path(graph, "A", "F"))  # ['A', 'C', 'F']
+```
+
+Why this matches BFS:
+- `deque.popleft()` removes from the front (FIFO).
+- First discovery of a node records the shortest-step parent in unweighted graphs.
+
+---
+
+## 13. Transition to the Next Algorithm
 
 BFS is reliable, but memory-heavy.
 
