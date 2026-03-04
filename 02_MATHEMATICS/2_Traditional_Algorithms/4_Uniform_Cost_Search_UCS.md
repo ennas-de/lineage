@@ -263,7 +263,63 @@ But it moves AI closer to optimization thinking, which becomes central later in 
 
 ---
 
-## 12. Transition to Shared Structure
+## 12. Python Implementation (Weighted Graph Search)
+
+```python
+import heapq
+
+
+def ucs_lowest_cost_path(graph, start, goal):
+    """
+    graph: dict[state, list[tuple[state, step_cost]]]
+    Returns (best_cost, best_path), or (float('inf'), None) if unreachable.
+    """
+    pq = [(0, start)]  # (cumulative_cost, node)
+    best_cost = {start: 0}
+    parent = {start: None}
+
+    while pq:
+        cost, node = heapq.heappop(pq)
+
+        # Ignore stale heap entries that are no longer the best known route.
+        if cost > best_cost[node]:
+            continue
+
+        if node == goal:
+            path = []
+            while node is not None:
+                path.append(node)
+                node = parent[node]
+            return cost, list(reversed(path))
+
+        for neighbor, step_cost in graph.get(node, []):
+            new_cost = cost + step_cost
+            if new_cost < best_cost.get(neighbor, float("inf")):
+                best_cost[neighbor] = new_cost
+                parent[neighbor] = node
+                heapq.heappush(pq, (new_cost, neighbor))
+
+    return float("inf"), None
+
+
+if __name__ == "__main__":
+    graph = {
+        "A": [("B", 1), ("C", 4)],
+        "B": [("D", 2)],
+        "C": [("D", 1)],
+        "D": [],
+    }
+
+    print(ucs_lowest_cost_path(graph, "A", "D"))  # (3, ['A', 'B', 'D'])
+```
+
+Why this matches UCS:
+- `heapq.heappop()` always expands the lowest cumulative path cost first.
+- `best_cost` prevents worse duplicates from being expanded.
+
+---
+
+## 13. Transition to Shared Structure
 
 Now we have seen three uninformed strategies:
 
