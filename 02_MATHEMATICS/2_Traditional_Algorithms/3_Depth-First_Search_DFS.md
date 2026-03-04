@@ -275,7 +275,60 @@ The data structure choice (stack vs queue) is what fundamentally determines the 
 
 ---
 
-## 13. Transition to the Next Algorithm
+## 13. Python Implementation (Graph Search, Iterative)
+
+```python
+def dfs_path(graph, start, goal):
+    """
+    graph: dict[state, list[state]]
+    Returns one valid DFS path to goal, or None if unreachable.
+    """
+    stack = [start]
+    parent = {start: None}
+    visited = set()
+
+    while stack:
+        node = stack.pop()  # LIFO: remove from top
+        if node in visited:
+            continue
+        visited.add(node)
+
+        if node == goal:
+            path = []
+            while node is not None:
+                path.append(node)
+                node = parent[node]
+            return list(reversed(path))
+
+        # Reverse so left-to-right neighbor order is preserved in traversal.
+        for neighbor in reversed(graph.get(node, [])):
+            if neighbor not in visited and neighbor not in parent:
+                parent[neighbor] = node
+                stack.append(neighbor)
+
+    return None
+
+
+if __name__ == "__main__":
+    graph = {
+        "A": ["B", "C"],
+        "B": ["D", "E"],
+        "C": ["F"],
+        "D": [],
+        "E": [],
+        "F": [],
+    }
+
+    print(dfs_path(graph, "A", "F"))  # e.g., ['A', 'C', 'F']
+```
+
+Why this matches DFS:
+- `stack.pop()` always explores the most recently added node first.
+- It goes deep along a branch, then backtracks when needed.
+
+---
+
+## 14. Transition to the Next Algorithm
 
 BFS focuses on shallow depth.
 DFS focuses on deep expansion.
