@@ -59,8 +59,8 @@ Think of a priority queue like an emergency room at a hospital:
 - Patients don't get treated in the order they arrive (not FIFO like BFS)
 - They don't get treated by who arrived most recently (not LIFO like DFS)
 - Instead, patients are treated by **urgency/priority**
-- A critical patient who arrives later gets treated before someone with a minor injury who arrived earlier
-- The "cost" here is the severity - lowest severity (highest priority) gets treated first
+- A critical patient (highest severity) who arrives later gets treated before someone with a minor injury who arrived earlier
+- In UCS terms: we want the **lowest cost** path, just like the hospital wants to treat the **highest priority** patient first
 
 This is exactly how UCS works: it doesn't care about arrival order or depth - only about which path has accumulated the lowest cost so far.
 
@@ -193,9 +193,9 @@ UCS is:
 - **Complete** if step costs are bounded below by a positive value ε > 0.
 - **Optimal** when all step costs are non-negative.
 
-This is why UCS is the standard uninformed method for unequal edge costs.
+This is why UCS is the standard uninformed method for `unequal` edge costs.
 
-Also, if all step costs are equal (for example, every edge cost = 1), UCS behaves like BFS.
+> Also, if all step costs are equal (for example, every edge cost = 1), UCS behaves like BFS.
 
 ---
 
