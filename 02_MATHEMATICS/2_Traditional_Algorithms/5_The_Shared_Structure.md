@@ -190,11 +190,11 @@ All three still use the same formal problem setup:
 
 What changes is the **node-selection rule**:
 
-| Algorithm | Data Structure | Selection Rule | What It Optimizes |
-|-----------|---------------|----------------|-------------------|
-| BFS | FIFO Queue | Smallest depth | Fewest steps |
-| DFS | LIFO Stack | Greatest depth | Memory usage |
-| UCS | Priority Queue | Smallest cost g(n) | Lowest total cost |
+| Algorithm | Data Structure | Selection Rule     | What It Optimizes |
+|-----------|--------------- |--------------------|-------------------|
+| BFS       | FIFO Queue     | Smallest depth     | Fewest steps      |
+| DFS       | LIFO Stack     | Greatest depth     | Memory usage      |
+| UCS       | Priority Queue | Smallest cost g(n) | Lowest total cost |
 
 This is why we call them one family of algorithms.
 
