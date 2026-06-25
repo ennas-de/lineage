@@ -1,29 +1,27 @@
 {
   "$schema": "https://fundingjson.org/schema/v1.1.0.json",
-  "version": "v1.0.0",
+  "version": "v1.1.0",
   "entity": {
-    "type": "individual",
-    "role": "maintainer",
-    "name": "Abdulhakeem Muhammed",
-    "email": "your-email@example.com",
-    "phone": "",
-    "description": "Founder of Lineage and Altruva Labs, focused on open-source AI systems research, developer infrastructure, blockchain integration, and structured AI knowledge systems. Lineage is an initiative dedicated to making artificial intelligence systems more understandable, teachable, extensible, and verifiable through open infrastructure and public research.",
+    "type": "organisation",
+    "role": "steward",
+    "name": "Altruva Lab",
+    "email": "dev.abdulhakeem@gmail.com",
+    "phone": "+2347063095047",
+    "description": "Altruva Lab is an open-source AI research initiative building foundational infrastructure for causal reasoning, AI education, and intelligent system design. Our work focuses on helping developers, researchers, and educators understand not only how modern AI systems work, but why they evolved and how they can be designed responsibly. We maintain the LINEAGE curriculum, ATLAS-AI causal reasoning engine, and ATLAS-SDK system architecture generator. Together these projects form an open ecosystem for understanding, teaching, and building artificial intelligence systems through causal reasoning rather than isolated pattern learning.",
     "webpageUrl": {
-      "url": "https://github.com/ennas-de",
-      "wellKnown": ""
+      "url": "https://github.com/Altruva-Lab"
     }
   },
   "projects": [
     {
-      "guid": "lineage-framework",
-      "name": "Lineage",
-      "description": "Lineage is an open-source AI system architecture and learning framework designed to map artificial intelligence as a coherent and structured system. The project focuses on AI systems understanding, architecture mapping, educational infrastructure, verifiable lineage, and open tooling for next-generation AI development.",
+      "guid": "lineage",
+      "name": "LINEAGE",
+      "description": "LINEAGE is an open-source framework that maps the causal evolution of artificial intelligence from first principles to modern architectures. It transforms fragmented AI knowledge into structured learning pathways that help developers understand system design, architectural trade-offs, and the historical progression of machine intelligence.",
       "webpageUrl": {
-        "url": "https://github.com/Altruva-Labs/lineage"
+        "url": "https://github.com/Altruva-Lab/lineage"
       },
       "repositoryUrl": {
-        "url": "https://github.com/Altruva-Labs/lineage",
-        "wellKnown": "https://github.com/Altruva-Labs/lineage/blob/main/funding.json"
+        "url": "https://github.com/Altruva-Lab/lineage"
       },
       "licenses": [
         "spdx:MIT"
@@ -31,60 +29,120 @@
       "tags": [
         "artificial-intelligence",
         "machine-learning",
-        "llm",
-        "open-source",
+        "education",
         "research",
-        "blockchain",
-        "web3",
+        "knowledge-graphs",
         "developer-tools",
-        "systems-architecture",
-        "knowledge-infrastructure"
+        "systems-thinking",
+        "curriculum"
+      ]
+    },
+    {
+      "guid": "atlas-ai",
+      "name": "ATLAS-AI",
+      "description": "ATLAS-AI is an open-source causal reasoning engine trained on structured knowledge graphs that explain the evolution of artificial intelligence. Unlike traditional language models that focus primarily on prediction, ATLAS-AI focuses on explaining why technologies emerged, what constraints they solved, and how future breakthroughs may evolve.",
+      "webpageUrl": {
+        "url": "https://github.com/Altruva-Lab/atlas-ai"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Altruva-Lab/atlas-ai"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "artificial-intelligence",
+        "llm",
+        "causal-reasoning",
+        "machine-learning",
+        "research",
+        "education",
+        "knowledge-graphs",
+        "open-source"
+      ]
+    },
+    {
+      "guid": "atlas-sdk",
+      "name": "ATLAS-SDK",
+      "description": "ATLAS-SDK is an open-source system generation toolkit that converts problem descriptions into AI system architectures, implementation scaffolds, and evolution roadmaps. It helps engineers move from problem definition to deployable system designs grounded in causal understanding and architectural best practices.",
+      "webpageUrl": {
+        "url": "https://github.com/Altruva-Group/atlas-sdk"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/Altruva-Group/atlas-sdk"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "developer-tools",
+        "software-architecture",
+        "artificial-intelligence",
+        "automation",
+        "code-generation",
+        "engineering",
+        "python",
+        "open-source"
       ]
     }
   ],
   "funding": {
     "channels": [
       {
-        "guid": "github",
+        "guid": "github-sponsor",
         "type": "payment-provider",
         "address": "https://github.com/ennas-de",
-        "description": "Support the ongoing development of open-source AI systems infrastructure and research."
+        "description": "Contact the maintainer directly regarding sponsorship, grants, research support, and ecosystem funding opportunities."
       }
     ],
     "plans": [
       {
-        "guid": "lineage-development",
+        "guid": "ecosystem-sustainability",
         "status": "active",
-        "name": "Open-Source AI Infrastructure Development",
-        "description": "Funding for AI systems research, architecture mapping, educational infrastructure, developer tooling, contributor onboarding, and open-source ecosystem development.",
-        "amount": 45000,
+        "name": "ATLAS Ecosystem Sustainability",
+        "description": "Supports continued development, maintenance, documentation, contributor onboarding, infrastructure, and long-term sustainability across LINEAGE, ATLAS-AI, and ATLAS-SDK.",
+        "amount": 25000,
         "currency": "USD",
-        "frequency": "one-time",
+        "frequency": "yearly",
         "channels": [
-          "github"
+          "github-sponsor"
         ]
       },
       {
-        "guid": "compute-support",
+        "guid": "research-compute",
         "status": "active",
-        "name": "GPU Compute and Research Support",
-        "description": "Support for GPU compute, experimentation, simulations, AI analysis workflows, and infrastructure maintenance.",
-        "amount": 10000,
+        "name": "Research and Compute Infrastructure",
+        "description": "Supports GPU compute, model experimentation, dataset generation, benchmarking, evaluation, and open-source releases.",
+        "amount": 25000,
         "currency": "USD",
-        "frequency": "monthly",
+        "frequency": "yearly",
         "channels": [
-          "github"
+          "github-sponsor"
         ]
-      }
-    ],
-    "history": [
+      },
       {
-        "year": 2025,
-        "income": 0,
-        "expenses": 0,
-        "taxes": 0,
+        "guid": "community-growth",
+        "status": "active",
+        "name": "Community and Documentation",
+        "description": "Supports educational content creation, technical writing, contributor onboarding, tutorials, workshops, and ecosystem adoption efforts.",
+        "amount": 25000,
         "currency": "USD",
-        "description": "Initial public infrastructure and open-source research phase."
+        "frequency": "yearly",
+        "channels": [
+          "github-sponsor"
+        ]
+      },
+      {
+        "guid": "general-support",
+        "status": "active",
+        "name": "General Support",
+        "description": "Flexible support for the ATLAS ecosystem and related open-source AI infrastructure projects.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "one-time",
+        "channels": [
+          "github-sponsor"
+        ]
       }
     ]
   }
